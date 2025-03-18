@@ -1,5 +1,4 @@
-# C_List_Sort
-Best algorithm to sort an array in C
+# Best algorithm to sort an array in C
 
 
 My goal in this project is to find the best sorting algorithm in C, by comparing 4 algorithms and their run times.
