@@ -1,3 +1,16 @@
 # C_List_Sort
 Best algorithme to sort a list in C
-![alt text](https://github.com/ayoubsami/C_List_Sort/blob/main/pic.png)
+
+
+My goal in this project is to find the best sorting algorithm in C, 
+
+
+
+
+
+
+
+
+
+
+# ![alt text]()
