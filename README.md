@@ -10,8 +10,8 @@
 * [Selection sort](#Selection-sort)
 * [Insertion sort](#nsertion-sort)
 * [Tree sort](#Tree-sort)
-
-
+* [Analysis](#Analysis)
+* [Conclution](#Conclution)
 
 
 ----
@@ -27,24 +27,38 @@ In this experiment, I'm using my laptop with the processor Intel® Core™ i5-53
 Bubble sort is a simple sorting algorithm that repeatedly steps through the input list element by element, comparing the current element with the one after it, swapping their values if needed, unil the whole array in sorted, 
 and thus it's time complexity in O(n²).
 
- <a href="Bubble sort"><img src="./pics/pic1.png" align="middle" width="70%" ></a>
+[comment]: <> (<a href="Bubble sort"><img src="./pics/pic1.png" align="middle" width="55%" height="300px" ></a>)
 
 ---
 
 ## Selection sort
 Selection sort is a sorting algorithm that selects the smallest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list,
 and it's time complexity is also O(n²).
-# ![](./pics/pic2.png)
+
+ 
+[comment]: <> (<a href="Bubble sort"><img src="./pics/pic2.png" align="middle" width="55%" ></a>)
 
 ---
 
 
 ## Insertion sort
 Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration and it's time complexity is O(n²).
-# ![](./pics/pic3.png)
+
+ [comment]: <> (<a href="Bubble sort"><img src="./pics/pic3.png" align="middle" width="55%" ></a>)
+
+ 
 ---
 
 ## Tree sort
 
- <a href="alternative text"><img src="./pics/pic4.jpeg" align="middle" width="70%"></a>
+ [comment]: <> (<a href="alternative text"><img src="./pics/pic4.jpeg" align="middle" width="55%" height="300px"></a>)
+
+---
+## Analysis
+---
+
+
+## Conclution
+
+
 
