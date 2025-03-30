@@ -1,24 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 
-
-void putinST(int size, int* ST);
 void insert(int size, int* T);
+void putinST(int size, int* ST);
+
 
 
 int main(){
-	int Z=5000000,T[5000000]={};
+	int Z=5,T[5]={4, 4,5, 45,54};
 	int ST[Z];
-	int i;
-	int med = 0;
+
 
 	insert(Z, T);
 
-
 	putinST(Z, ST);
+	
 	printf("Done.\n");
-	//for(i=0;i<Z;i++){ printf("\n%d",ST[i]); }
 	return 0;
 }
 
@@ -51,11 +50,12 @@ void insert(int size, int* T){
 		temp= root;
 
 		while(!found){//inserting our key in the tree.
+
 			if(key > temp->key){
 				if(temp->right!=NULL) temp = temp->right;
 				else {
 					node* ml= (node*)malloc(sizeof(node));
-					ml->key=key; ml->iteration=1; ml->left=NULL; ml->right=NULL;ml->parent=temp;
+					ml->key=key; ml->iteration=1; ml->left=NULL; ml->right=NULL; ml->parent=temp;
                                         temp->right=ml;
 					found=true;
 				}
@@ -64,7 +64,7 @@ void insert(int size, int* T){
                                 if(temp->left!=NULL) temp = temp->left;
                                 else {
                                         node* ml= (node*)malloc(sizeof(node));
-                                	ml->key=key; ml->iteration=1; ml->left=NULL; ml->right=NULL;ml->parent=temp;
+                                	ml->key=key; ml->iteration=1; ml->left=NULL; ml->right=NULL; ml->parent=temp;
 					temp->left=ml;
 					found=true;
                                 }
@@ -82,23 +82,33 @@ void insert(int size, int* T){
 
 
 void putinST(int size, int* ST){
-	int i, key, x=0;
+	int i=0, key;
 	bool found = false;
 	node* temp2;
 	node* temp;
 
-
-	for(i=0;i<size;i++){
+	while(root != NULL){
 		temp = root;
 		found = false;
 
 		while(!found){
-
-			if(temp->left!=NULL) temp=temp->left;
+			if(temp->left==NULL && temp->right==NULL && temp->parent==NULL && temp->iteration==0){ //root node.
+				free(temp);
+				root=NULL;
+				found=true;
+			}
+			else if(temp->left==NULL && temp->right==NULL && temp->iteration==0){ //sonless node.
+				temp2=temp;
+				temp=temp->parent;
+				if(temp->right==temp2) temp->right=NULL;
+				else if(temp->left==temp2) temp->left=NULL;
+				free(temp2);
+			}
+			else if(temp->left!=NULL) temp=temp->left;
 			else if(temp->iteration==0 && temp->right!=NULL) temp=temp->right;
 			else if (temp->iteration!=0){
 				ST[i]=temp->key;
-
+				i++;
 				temp->iteration--;
 
 
@@ -109,22 +119,11 @@ void putinST(int size, int* ST){
                                 	if(temp->right==temp2) temp->right=NULL;
                         	        else if(temp->left==temp2) temp->left=NULL;
         	                        free(temp2);
-                	                x++;
 					found = true;
 	                        }
 				else found=true;
 			}
-			if(temp->left==NULL && temp->right==NULL && temp->iteration==0){ //sonless node.
-				temp2=temp;
-				if (temp->parent!=NULL)temp=temp->parent;
-				if(temp->right==temp2) temp->right=NULL;
-				else if(temp->left==temp2) temp->left=NULL;
-				free(temp2);
-				x++;
-				found = true;
-			}
+			
 		}
 	}
-
 }
-
