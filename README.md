@@ -51,10 +51,25 @@ Insertion sort is a sorting algorithm that places an unsorted element at its sui
 
 ## Tree sort
 
-What happens here is: first  we generate the root of the tree, and it's the average number of the tree and it doesn't even have to be an element of the tree, then take the unsorted array, we create a tree from it,each node has 2 variable: 
-the key(number we took from the array), iteration(iteration of the number),
-and 3 pointers: one to the parent, one to the left son and one to the right son, 
-after that, in the last function we pick the numbers from the tree into a sorted array, with each number we pick we delate the node.
+What happens here is: 
+
+1- first  we generate the root of the tree, and it's the average number of the tree and it doesn't even have to be an element of the tree, 
+
+2- Then take the unsorted array, we create a tree from it,each node has 2 variable: 
+
+   -The key(number we took from the array), 
+
+   -Iteration(iteration of the number),
+
+and 3 pointers: 
+
+   -One to the parent, 
+    
+   -One to the left son 
+    
+   -One to the right son, 
+
+after that, in the last function we pick the numbers from the tree into a sorted array, with each number we pick we delete the node.
 
 
 And the final time complexity is O(n).
