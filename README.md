@@ -27,7 +27,7 @@ In this experiment, I'm using my laptop with the processor Intel® Core™ i5-53
 Bubble sort is a simple sorting algorithm that repeatedly steps through the input list element by element, comparing the current element with the one after it, swapping their values if needed, unil the whole array in sorted, 
 and thus it's time complexity in O(n²).
 
-[comment]: <> (<a href="Bubble sort"><img src="./pics/pic1.png" align="middle" width="55%" height="300px" ></a>)
+<a href="Bubble sort"><img src="./pic/pic_1.png" align="middle" width="55%" height="260px" ></a>
 
 ---
 
@@ -36,7 +36,7 @@ Selection sort is a sorting algorithm that selects the smallest element from an 
 and it's time complexity is also O(n²).
 
  
-[comment]: <> (<a href="Bubble sort"><img src="./pics/pic2.png" align="middle" width="55%" ></a>)
+<a href="Bubble sort"><img src="./pic/pic_2.png" align="middle" width="55%" height="200px"></a>
 
 ---
 
@@ -44,14 +44,23 @@ and it's time complexity is also O(n²).
 ## Insertion sort
 Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration and it's time complexity is O(n²).
 
- [comment]: <> (<a href="Bubble sort"><img src="./pics/pic3.png" align="middle" width="55%" ></a>)
+<a href="Bubble sort"><img src="./pic/pic_3.png" align="middle" width="55%" ></a>
 
  
 ---
 
 ## Tree sort
 
- [comment]: <> (<a href="alternative text"><img src="./pics/pic4.jpeg" align="middle" width="55%" height="300px"></a>)
+What happens here is: first  we generate the root of the tree, and it's the average number of the tree and it doesn't even have to be an element of the tree, then take the unsorted array, we create a tree from it,each node has 2 variable: 
+the key(number we took from the array), iteration(iteration of the number),
+and 3 pointers: one to the parent, one to the left son and one to the right son, 
+after that, in the last function we pick the numbers from the tree into a sorted array, with each number we pick we delate the node.
+
+
+And the final time complexity is O(n).
+
+
+ <a href="alternative text"><img src="./pic/pic_4.jpeg" align="middle" width="55%" height="300px"></a>
 
 ---
 ## Analysis
