@@ -6,6 +6,12 @@
 > ## Table of Contents
 
 * [Introduction](#Introduction)
+* [Bubble sort](#test1)
+* [Selection sort](#test2)
+* [Insertion sort](#test3)
+* [Introduction](#test4)
+
+
 
 ---
 
