@@ -1,9 +1,22 @@
 # Best algorithm to sort an array in C
 
 
-My goal in this project is to find the best sorting algorithm in C, by comparing 4 algorithms and their run times.
+### My goal in this project is to find the fastest and the best sorting algorithm in C, by comparing 4 algorithms.
+---
+> ## Table of Contents
 
-In this experiment, I'm using my laptop with the processor Intel® Core™ i5-5300U × 4
+* [Introduction](#Introduction)
+
+---
+
+# ![](./pics/pic1.png)
+---
+
+
+
+
+## Introduction
+In this experiment, I'm using my laptop with the processor Intel® Core™ i5-5300U × 4, and i have changed my stack maximuim memory to more then 200Mo (204800Kb to be exact) so it could stand the largest dataset.
 
 
 
@@ -14,4 +27,3 @@ In this experiment, I'm using my laptop with the processor Intel® Core™ i5-53
 
 
 
-# ![alt text]()
