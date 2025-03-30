@@ -43,4 +43,5 @@ In this experiment, I'm using my laptop with the processor Intel® Core™ i5-53
 
 ## Tree sort
 
-# ![](./pics/pic4.png)
+ <a href="alternative text"><img src="./pics/pic4.jpeg" align="middle" ></a>
+
