@@ -6,10 +6,10 @@
 > ## Table of Contents
 
 * [Introduction](#Introduction)
-* [Bubble sort](#test1)
-* [Selection sort](#test2)
-* [Insertion sort](#test3)
-* [Tree sort](#test4)
+* [Bubble sort](#Bubble-sort)
+* [Selection sort](#Selection-sort)
+* [Insertion sort](#nsertion-sort)
+* [Tree sort](#Tree-sort)
 
 
 
