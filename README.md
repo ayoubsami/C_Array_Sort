@@ -10,8 +10,7 @@
 * [Selection sort](#Selection-sort)
 * [Insertion sort](#nsertion-sort)
 * [Tree sort](#Tree-sort)
-* [Analysis](#Analysis)
-* [Conclution](#Conclution)
+* [Analysis and Conclution](#Analysis-and-Conclution)
 
 
 ----
@@ -22,12 +21,14 @@
 ## Introduction
 In this experiment, I'm using my laptop with the processor Intel® Core™ i5-5300U × 4, and i have changed my stack maximuim memory to more then 200Mo (204800Kb to be exact) so it could stand the largest dataset.
 
+All test were done with Data generated with a python sript that uses random.randint(), and all the numbers are from -1000 to 1000.
+
 ---
 ## Bubble sort
 Bubble sort is a simple sorting algorithm that repeatedly steps through the input list element by element, comparing the current element with the one after it, swapping their values if needed, unil the whole array in sorted, 
 and thus it's time complexity in O(n²).
 
-<a href="Bubble sort"><img src="./pic/pic_1.png" align="middle" width="55%" height="260px" ></a>
+<a href="Bubble sort"><img src="./pic/pic_1.png" align="middle"  width="69%" height="340px"></a>
 
 ---
 
@@ -36,7 +37,7 @@ Selection sort is a sorting algorithm that selects the smallest element from an 
 and it's time complexity is also O(n²).
 
  
-<a href="Bubble sort"><img src="./pic/pic_2.png" align="middle" width="55%" height="200px"></a>
+<a href="Bubble sort"><img src="./pic/pic_2.png" align="middle"  width="69%" height="280px"></a>
 
 ---
 
@@ -44,7 +45,7 @@ and it's time complexity is also O(n²).
 ## Insertion sort
 Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration and it's time complexity is O(n²).
 
-<a href="Bubble sort"><img src="./pic/pic_3.png" align="middle" width="55%" ></a>
+<a href="Bubble sort"><img src="./pic/pic_3.png" align="middle" width="69%" height="300px"></a>
 
  
 ---
@@ -75,14 +76,23 @@ after that, in the last function we pick the numbers from the tree into a sorted
 And the final time complexity is O(n).
 
 
- <a href="alternative text"><img src="./pic/pic_4.jpeg" align="middle" width="55%" height="300px"></a>
+ <a href="alternative text"><img src="./pic/pic_4.jpeg" align="middle" width="69%" height="420px"></a>
 
 ---
-## Analysis
+## Analysis and Conclution
+ <a href="alternative text"><img src="./pic/chart.svg" align="middle"></a>
+
+By comapring all the 4 algorithms, plus the sort function in python, i found out that:
+
++ The Bubble algorithm is great on small number of numbers, up to 10.000 numbers, then it skyrocketed.
+
++ the Selection and the Insertion algorithms have similar run time, even though the algorithms have different logic, the performance was great up to 50.000 numbers.
+
++ The Python .sort() performed quite fine in small numbers up to 2.000.000 then it suddenly crashed.
+
++ The Tree algorithm has the best performance so far, as it was the fastest on all the test, with 3.610s run time on a 2M numbers.
+
+
+
 ---
-
-
-## Conclution
-
-
 
