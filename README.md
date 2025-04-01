@@ -26,7 +26,7 @@ All test were done with Data generated with a python sript that uses random.rand
 ---
 ## Bubble sort
 
-<a href="Bubble sort"><img src="./pic/pic_1.png" align="middle"  width="69%" height="340px"></a>
+<a href="Bubble sort"><img src="./pic/pic_1.png" align="middle"></a>
 
 Bubble sort is a simple sorting algorithm that repeatedly steps through the input list element by element, comparing the current element with the one after it, swapping their values if needed, unil the whole array in sorted, 
 and thus it's time complexity in O(n²).
