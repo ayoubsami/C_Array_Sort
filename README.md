@@ -37,7 +37,7 @@ and thus it's time complexity in O(n²).
 
 ## Selection sort
 
-<a href="Bubble sort"><img src="./pic/pic_2.png" align="middle"  width="69%" height="280px"></a>
+<a href="Bubble sort"><img src="./pic/pic_2.png" align="middle"></a>
 
 Selection sort is a sorting algorithm that selects the smallest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list,
 and it's time complexity is also O(n²).
@@ -49,7 +49,7 @@ and it's time complexity is also O(n²).
 
 ## Insertion sort
 
-<a href="Bubble sort"><img src="./pic/pic_3.png" align="middle" width="69%" height="300px"></a>
+<a href="Bubble sort"><img src="./pic/pic_3.png" align="middle"></a>
 
 Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration and it's time complexity is O(n²).
 
@@ -59,7 +59,7 @@ Insertion sort is a sorting algorithm that places an unsorted element at its sui
 
 ## Tree sort
 
- <a href="alternative text"><img src="./pic/pic_4.jpeg" align="middle" width="69%" height="420px"></a>
+ <a href="alternative text"><img src="./pic/pic_4.jpeg" align="middle"></a>
 
 What happens here is: 
 
